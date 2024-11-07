@@ -43,4 +43,4 @@ if __name__ == '__main__':
     msg = create_msg(FROM, TO, BCC, SUBJECT, BODY)
     send_mail(to_addrs, msg)
 
-　~~~
+~~~
