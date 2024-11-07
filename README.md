@@ -48,5 +48,6 @@ if __name__ == '__main__':
 ## Googleアカウントの準備
 - 二段階認証をONにする
 - アプリパスワードを設定する
-
+  
+アプリパスワードは下記URLから設定する  
 [https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)
