@@ -5,12 +5,12 @@ import smtplib
 from email.mime.text import MIMEText
 from email.utils import formatdate
 
-FROM = 'olp.gbp@gmail.com'
-PASSWORD = 'dzhaakldxqmcjjdj'
+FROM = 'MailAddress@gmail.com'
+PASSWORD = 'アプリパスワード'
 PORT = 587
 
-TO = 'tsuyoshi.nakamura@openloop.co.jp'
-BCC = 't23220130n@i.softbank.jp'
+TO = 'aaa@gmail.com'
+BCC = 'bbb@gmail.com'
 
 SUBJECT = '日本語の題名'
 BODY = '''日本語の本文
@@ -44,3 +44,9 @@ if __name__ == '__main__':
     send_mail(to_addrs, msg)
 
 ~~~
+
+## Googleアカウントの準備
+- 二段階認証をONにする
+- アプリパスワードを設定する
+
+[https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)
