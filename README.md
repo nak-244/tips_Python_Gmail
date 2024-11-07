@@ -1,6 +1,6 @@
 # Pythonでメールを送る方法
 
-　~~~python
+~~~python
 import smtplib
 from email.mime.text import MIMEText
 from email.utils import formatdate
